@@ -5,16 +5,16 @@ import { getSockets } from "../lib/helper.js";
 
 const cookieOption = {
   maxAge: 15 * 24 * 60 * 60 * 1000,
-  sameSite: process.env.NODE_ENV === "production" ? "none" : "lax", // Use 'lax' for localhost
-  secure: process.env.NODE_ENV === "production" ? true : false, // Allow HTTP on localhost
+  sameSite: "none", // Always 'none' for cross-domain cookies
+  secure: true, // Always true for cross-domain cookies (HTTPS required)
   httpOnly: true,
 };
 
 // Separate option for admin cookies with shorter expiration
 const adminCookieOption = {
   maxAge: 15 * 60 * 1000, // 15 minutes
-  sameSite: process.env.NODE_ENV === "production" ? "none" : "lax", // Use 'lax' for localhost
-  secure: process.env.NODE_ENV === "production" ? true : false,
+  sameSite: "none", // Always 'none' for cross-domain
+  secure: true, // Always true for cross-domain
   httpOnly: true,
 };
 

@@ -2,7 +2,7 @@ import { ErrorHandler } from "../utils/utility.js";
 import { TryCatch } from "./error.js";
 import jwt from "jsonwebtoken";
 import { adminSecretKey } from "../app.js";
-import { tr } from "@faker-js/faker";
+
 import { TALKIE_TOKEN } from "../constants/config.js";
 import { User } from "../models/user-model.js";
 

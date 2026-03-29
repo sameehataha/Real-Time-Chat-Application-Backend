@@ -17,6 +17,7 @@ A robust, production-ready backend for a real-time chat application featuring on
 | **Backend API** | [https://real-time-chat-application-ky07.onrender.com](https://real-time-chat-application-ky07.onrender.com) |
 | **Frontend App** | [https://real-time-chat-application-frontend-rho.vercel.app/login](https://real-time-chat-application-frontend-rho.vercel.app/login) |
 
+image 
 ##  Features
 
 ###  User Features
@@ -244,13 +245,13 @@ npm start <br>
 }
 ```
 # Security Features
--JWT Authentication: Secure token-based auth stored in HTTP-only cookies
--Password Hashing: bcrypt for password encryption
--CORS Protection: Restricted origin access
--Input Validation: express-validator for all requests
--File Restrictions: 5MB limit, 5 files max
--Rate Limiting: Group member limits (max 100 members)
--Admin Session: 15-minute token expiration
+- JWT Authentication: Secure token-based auth stored in HTTP-only cookies
+- Password Hashing: bcrypt for password encryption
+- CORS Protection: Restricted origin access
+- Input Validation: express-validator for all requests
+- File Restrictions: 5MB limit, 5 files max
+- Rate Limiting: Group member limits (max 100 members)
+- Admin Session: 15-minute token expiration
 
 #  Deployment
 ## Deployed on Render
@@ -259,11 +260,11 @@ npm start <br>
 - Environment variables configured in Render dashboard
 
 # Contributing
--Fork the repository
--Create your feature branch (git checkout -b feature/amazing)
--Commit changes (git commit -m 'Add amazing feature')
--Push to branch (git push origin feature/amazing)
--Open a Pull Request
+- Fork the repository
+- Create your feature branch (git checkout -b feature/amazing)
+- Commit changes (git commit -m 'Add amazing feature')
+- Push to branch (git push origin feature/amazing)
+- Open a Pull Request
 
 # License
 

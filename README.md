@@ -17,7 +17,12 @@ A robust, production-ready backend for a real-time chat application featuring on
 | **Backend API** | [https://real-time-chat-application-ky07.onrender.com](https://real-time-chat-application-ky07.onrender.com) |
 | **Frontend App** | [https://real-time-chat-application-frontend-rho.vercel.app/login](https://real-time-chat-application-frontend-rho.vercel.app/login) |
 
-image 
+
+![Real Time Chat Application](./preveiw.png.png)
+![Real Time Chat Application](./review.png.png)
+![Real Time Chat Application](./dsa2.png)
+![Real Time Chat Application](./dsa1.png)
+
 ##  Features
 
 ###  User Features
